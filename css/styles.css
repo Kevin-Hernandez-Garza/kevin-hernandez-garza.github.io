@@ -3,3 +3,19 @@ img {
     height: 250px;
 }
 
+header {
+    background-color: #505050;
+    text-align: center;
+    color: white;
+}
+
+.about-me {
+    width: 55%;
+    display:inline-block;
+    margin: 0 auto;
+}
+
+.contact {
+    width: 35%;
+    margin: 0 auto;
+}
