@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,10 +11,31 @@ header {
     color: white;
 }
 
+h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
 
-img {
+.container section {
+    width: 40%;
+    line-height: 1.5;
+    margin: 20px 20px;
+}
+
+#main-bio {
+    float: left;
+}
+
+#contact-info {
+    float: right;
+}
+
+img#profile-picture {
+    float: left;
+    margin-right: 15px;
     width: 200px;
     height: 250px;
+    border: 2px solid #000;
 }
 
 a {
